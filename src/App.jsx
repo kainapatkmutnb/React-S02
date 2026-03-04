@@ -4,7 +4,7 @@ import BookList from './components/BookList';
 import ViewBook from './components/ViewBook';
 import BookForm from './components/BookForm';
 
-const API_URL = 'https://node84718-advcompro.th.app.ruk-com.cloud/books';
+const API_URL = 'http://localhost:3001/books';
 
 const App = () => {
   const [books, setBooks] = useState([]);
